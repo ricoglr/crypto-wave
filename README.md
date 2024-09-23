@@ -56,5 +56,3 @@ npm install react-native-webview
 ## Sonuç
 
 Bu adımlar tamamlandığında, uygulamanız gerekli paketler ve yapı ile hazır olacaktır. Projeyi geliştirmeye ve kullanıcı dostu özellikler eklemeye devam edebilirsiniz.
-
-Bu dokümanı Markdown formatında kullanarak GitHub veya başka bir platformda paylaşabilirsiniz. Herhangi bir ek bilgiye veya düzeltmeye ihtiyacınız varsa lütfen belirtin!
