@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Proje Tanıtımı
 
-## Get started
+Bu proje, kullanıcıların kripto para birimleriyle ilgili bilgileri görüntülemelerine olanak tanıyan bir mobil uygulamadır. Uygulama, kullanıcıların farklı kripto paraların değişim zamanlarını takip etmelerini sağlar. Proje, kullanıcı dostu bir arayüzle, API entegrasyonu sayesinde güncel verileri sağlar.
 
-1. Install dependencies
+## Expo ile Proje Oluşturma Aşamaları
 
+1. Expo CLI Kurulumu:
    ```bash
-   npm install
+   npm install -g expo-cli
    ```
 
-2. Start the app
-
+2. Projeyi import etme:
    ```bash
-    npx expo start
+   git clone https://github.com/ricoglr/crypto-wave
    ```
 
-In the output, you'll find options to open the app in a
+3. Proje Klasörüne Geçiş:
+   ```bash
+   cd crypto-wave
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+4. Proje Çalıştırma:
+   ```bash
+   expo start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Paket Import Aşamaları
 
-## Get a fresh project
+Projenizde kullanmak istediğiniz bazı önemli paketleri eklemek için aşağıdaki adımları izleyebilirsiniz:
 
-When you're ready, run:
-
+### 1. @react-navigation/bottom-tabs
+Bu paket, uygulamanızda alt sekmeli navigasyon oluşturmak için kullanılır.
 ```bash
-npm run reset-project
+npm install @react-navigation/bottom-tabs
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. @react-navigation/native
+Bu, React Navigation'ın temel bileşenlerini içerir.
+```bash
+npm install @react-navigation/native
+```
 
-## Learn more
+### 3. axios
+Axios, HTTP istekleri yapmak için kullanılan bir kütüphanedir.
+```bash
+npm install axios
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. react-native-webview
+Web içeriklerini uygulamanızda görüntülemek için kullanılır.
+```bash
+npm install react-native-webview
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Sonuç
 
-## Join the community
+Bu adımlar tamamlandığında, uygulamanız gerekli paketler ve yapı ile hazır olacaktır. Projeyi geliştirmeye ve kullanıcı dostu özellikler eklemeye devam edebilirsiniz.
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Bu dokümanı Markdown formatında kullanarak GitHub veya başka bir platformda paylaşabilirsiniz. Herhangi bir ek bilgiye veya düzeltmeye ihtiyacınız varsa lütfen belirtin!
